@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+body  {
+    max-width: 980px;
+    margin: auto;
+}
+
+.container-block .logo {
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+  /*  margin: 10px;
+    width: 250px; */
+}
+
+.container-block .ramka {
+    white-space: nowrap;
+    width: 200px;
+    border: 5px solid black;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.container-block {
+    display: grid;
+    grid-auto-columns: 300px 300px 300px
+}
+
+img {
+    margin: 30px;
+    width: 300px;
+}
