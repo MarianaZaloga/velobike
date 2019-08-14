@@ -5,12 +5,11 @@ body  {
     max-width: 980px;
     margin: auto;
 }
-
 .container-block .logo {
     font-family: 'Righteous', cursive;
     font-size: 4rem;
-  /*  margin: 10px;
-    width: 250px; */
+    margin: 10px;
+    width: 250px;
 }
 
 .container-block .ramka {
@@ -28,5 +27,5 @@ body  {
 
 img {
     margin: 30px;
-    width: 300px;
+    width: 250px;
 }
