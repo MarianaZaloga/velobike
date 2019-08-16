@@ -6,10 +6,23 @@ body  {
     margin: auto;
 }
 
-@media (min-width:550px) {
-      .container-block {
-         display: flex;
+@media (min-width: 500px) {
+      header .container-block {
+         display: grid;
+         grid-template-columns: 3fr;
      }
+}
+
+@media (min-width: 660px) {
+      header .container-block {
+         grid-template-columns: 3fr 4fr;
+     }
+}
+
+@media (min-width: 980px) {
+header .container-block {
+    grid-template-columns: 3fr 4fr 3fr;
+   }
 }
 
 .logo {
@@ -27,25 +40,29 @@ body  {
     text-overflow: clip;
 }
 
-.container-block {
-    display: grid;
-    grid-template-columns: 300px 400px 300px;
-
-}
-
 .container-block img {
     margin: 30px;
     width: 250px;
-
 }
 
 .basket {
     width: 20px;
-
-
 }
 
 .basket img {
     width: 50px;
+}
 
+.footer-map {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+footer .found {
+     text-align: center;
+}
+
+.street {
+    align-content: center;
 }
